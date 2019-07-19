@@ -1,15 +1,4 @@
-import audioop
-import logging
-import os
 import pyaudio
-import subprocess
-import urllib
-import urllib2
-import wave
-import collections
-from pprint import pprint
-
-
 class Listener():
     """
     Listener class
@@ -20,7 +9,9 @@ class Listener():
         """
         Setup the pyaudio instance and other initialize other instance variables
         """
-        logging.info('Listener is initializing')
+        logging.info('​
+12
+Listener is initializing')
         
         # Make sure the format is initialized
         self.pyaudio_handler = pyaudio.PyAudio()
